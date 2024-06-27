@@ -82,7 +82,7 @@
 
             if (username === validUsername && password === validPassword) {
                 alert('Bienvenido!');
-                // Aquí se podría redirigir a otra página o realizar alguna otra acción
+                
             } else {
                 attemptCount++;
                 if (attemptCount >= maxAttempts) {
